@@ -1,0 +1,10 @@
+# Chương trình chào hỏi đơn giản
+
+def main():
+    # Yêu cầu người dùng nhập tên
+    name = input("Xin chào! Bạn tên là gì? ")
+    # In ra lời chào cá nhân hóa
+    print(f"Chào bạn, {name}! Rất vui được gặp bạn.")
+
+if __name__ == "__main__":
+    main()
